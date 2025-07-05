@@ -13,4 +13,9 @@ public class KafkaTopicConfig {
         return TopicBuilder.name("javaguides")
                 .build();
     }
+
+    public NewTopic formDataTopic() {
+        return TopicBuilder.name("formdata")
+                .build();
+    }
 }
